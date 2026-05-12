@@ -21,7 +21,7 @@
   padding: 10px 24px;
   color: #FFFFFF;
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 800;
   border: none;
   border-radius: 40px;
   background-color: #E02C6D;
@@ -182,11 +182,46 @@
 
 .see-more{
   text-align: right;
-}
+} 
 .see-more a{
   color: #E02C6D;
   font-weight: 700;
   text-decoration: none;
+}
+
+
+/* Feature section */
+
+.Feature{
+  max-width: 1250px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.feature-head{
+  color: #0A0826;
+  font-size: 2.375rem;
+  font-weight: 800;
+}
+
+.feature-lesson{
+  color: #6C6C6C;
+  font-weight: 800;
+}
+
+.btn3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 24px;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 800;
+  border: none;
+  background-color: #E02C6D;
 }
 
 
