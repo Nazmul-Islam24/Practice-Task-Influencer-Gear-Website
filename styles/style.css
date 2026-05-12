@@ -90,6 +90,26 @@
 }
 
 
+/* our-sponsors section */
+.our-sponsors{
+  max-width: 1200px;
+  margin: 70px auto;
+  border: .5px solid rgba(44, 44, 44, 0.082);
+  border-radius: 100px;
+  border-left: none;
+  border-right: none;
+}
+
+.sponsor-companies{
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  margin: 35px 60px;
+
+}
+
+
+
 
 
 
