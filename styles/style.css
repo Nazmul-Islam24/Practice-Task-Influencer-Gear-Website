@@ -49,9 +49,6 @@
   height: 414px;
 }
 
-
-
-
 /* navbar section */
 
 .brand{
@@ -222,6 +219,44 @@
   font-weight: 800;
   border: none;
   background-color: #E02C6D;
+}
+
+
+/* Footer section */
+
+.footer{
+  background-color: #0A0826;
+  max-width: 1440px;
+  margin: 0px auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0px;
+}
+
+.footer-item{
+  color: #FFFFFF;
+  width: auto;
+  height: 145;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-item > h3{
+  font-weight: 800;
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.footer-item > p{
+  color: #c7c7c7e5;
+  font-weight: 800;
+  /* font-size: 0.875rem; */
+}
+
+.social-list{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
 }
 
 
