@@ -384,3 +384,93 @@
   }
 }
 
+
+
+
+/* Medium size device (Tablets) */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  
+  /* Navbar adjust */
+  .navbar {
+    padding: 20px 40px;
+  }
+
+  .nav-links {
+    gap: 15px;
+  }
+
+  .nav-item {
+    margin-right: 15px;
+  }
+
+  /* Banner Section */
+  .banner {
+    flex-direction: row; 
+    padding: 40px;
+    gap: 20px;
+  }
+
+  .Influencer h1 {
+    font-size: 2.2rem;
+  }
+
+  .bgg-image {
+    width: 350px;
+    height: 350px;
+    background-size: contain;
+  }
+
+  .bgg-image img {
+    width: 320px;
+    height: auto;
+  }
+
+  /* Sponsors */
+  .sponsor-companies {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin: 30px;
+  }
+
+  /* Popular Collection  */
+  .Card-container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 40px;
+    gap: 25px;
+  }
+
+  .Popular {
+    max-width: 90%;
+  }
+
+  /* Feature Section */
+  .Feature {
+    flex-direction: column; 
+    text-align: center;
+    padding: 40px;
+    gap: 30px;
+  }
+
+  .Feature img {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .feature-head {
+    font-size: 2rem;
+  }
+
+  .feature-lesson br {
+    display: none; 
+  }
+
+  .btn3 {
+    margin: 0 auto;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 50px 30px;
+  }
+}
